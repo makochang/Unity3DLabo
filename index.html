@@ -3,11 +3,17 @@
 
   <head>
     <meta charset='utf-8'>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
     <title>Unity3dlabo</title>
   </head>
 
   <body>
     <img src="https://chart.googleapis.com/chart?cht=tx&chl=45*\frac{ \pi }{ 360 } "> 
+    $\frac{ \pi }{ 360 }$
   </body>
 </html>
